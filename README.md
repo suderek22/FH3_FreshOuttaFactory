@@ -7,8 +7,6 @@ FreshOuttaFactory for Forza Horizon 3 on Azimuth. Requires [FH3 ModPlatform 1.4.
 
 Copy the DLL and INI into the `fh3-mods` folder next to `azimuth.exe`. Keep your existing INI when upgrading. Change either switch from **Home > MODS > Installed mods > FH3_FreshOuttaFactory**. The platform checks [the mod's GitHub releases](https://github.com/suderek22/FH3_FreshOuttaFactory/releases) for newer versions.
 
-Run `powershell -ExecutionPolicy Bypass -File .\build.ps1` with Visual Studio C++ Build Tools and CMake to stage the release in `dist`. The SDK header is from ModPlatform v1.4.2.
-
 ## Game hooks
 
 The damage hooks target the concrete FH3 car-presentation methods at `0x1E33770` (ApplyDamage) and `0x1E3CF60` (DetachPart).
